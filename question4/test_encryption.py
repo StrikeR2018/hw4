@@ -11,7 +11,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(encryption.encrypt(("Hello World", "sddsadsdfsdfsdfsdfg44spf[gefd ", "abcdefghijklmnopqrstuvwxyz.,! "), "dafff pfffs")
 
     def test_encryption_3(self):
-        self.assertEqual(encryption.encrypt(("Bankcard password qwert", "uvhifuhsdfiuqflsdhkjhlqiuhr12 ", "abcdefghijklmnopqrstuvwxyz.,! "), "vufihuhi sukkqlhi dqfhj")
+        self.assertEqual(encryption.encrypt(("Bankcard password 1234", "uvhifuhsdfiuqflsdhkjhlqiuhr12 987654321", "abcdefghijklmnopqrstuvwxyz.,! 123456789"), "vufihuhi sukkqlhi 9876")
 
 if  __name__ == "__main__":
     unittest.main()
